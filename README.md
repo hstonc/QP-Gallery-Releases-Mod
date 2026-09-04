@@ -14,9 +14,6 @@ It includes multiple bug fixes, improved compatibility with recent Android versi
 
 </details>
 
-> [!WARNING]
-> 32-bit architecture support required, check if your device is supported before proceeding to download
-
 # QP Gallery Mod
 
 > Unofficial AI-assisted modification of QP Gallery  
