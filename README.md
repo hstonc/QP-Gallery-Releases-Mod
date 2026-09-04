@@ -54,6 +54,16 @@ https://github.com/WSTxda/QP-Gallery-Releases
 
 ---
 
+## Mod 功能開關
+
+本 Mod 增加或調整的主要功能可以在：
+
+**設定 → 檢視（Settings → View）**
+
+中開啟或關閉。部分修復屬於基礎行為修正，可能不提供獨立開關。
+
+---
+
 ## 新增與修改的功能
 
 ### 音量鍵翻頁
@@ -220,6 +230,16 @@ Original project:
 **WSTxda/QP-Gallery-Releases**
 
 https://github.com/WSTxda/QP-Gallery-Releases
+
+---
+
+## Mod Feature Toggles
+
+Most features added or changed by this Mod can be enabled or disabled under:
+
+**Settings → View**
+
+Some fixes are basic behavior corrections and may not have a separate toggle.
 
 ---
 
