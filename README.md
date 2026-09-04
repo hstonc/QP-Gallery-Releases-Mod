@@ -91,14 +91,6 @@ https://github.com/WSTxda/QP-Gallery-Releases
 
 ---
 
-### 切換圖庫後自動隱藏介面
-
-使用按鍵或手勢切換至其他圖庫後，上下資訊欄及系統介面可能會重新顯示。
-
-現在會在約 **5 秒後自動隱藏**，不需要再額外點擊螢幕一次。
-
----
-
 ### 閱讀進度記錄
 
 增加 / 調整了圖庫閱讀進度記錄。
@@ -267,14 +259,6 @@ When switching:
 
 - The next gallery opens from its first image
 - The previous gallery opens from its last image
-
----
-
-### Automatic UI Hiding After Gallery Switching
-
-Switching galleries using buttons or gestures may cause the top/bottom information bars and system UI to become visible.
-
-They will now automatically hide again after approximately **5 seconds**, without requiring an additional screen tap.
 
 ---
 
