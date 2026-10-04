@@ -84,6 +84,17 @@ https://github.com/WSTxda/QP-Gallery-Releases
 - [x] 依影片方向自動旋轉與安全音量
 - [x] MPEG-4 SP／ASP 等相容解碼
 - [x] 更完整的影片資訊、章節與播放進度
+- [x] 漸變側邊欄：播放列表、詳細資料、播放速度與睡眠計時器
+- [x] 影片優先使用可用硬體解碼器，失敗時保留位置並回退
+- [x] 音訊優先保留來源取樣率與聲道，使用浮點 PCM，設備不接受時降級；支援匹配的同名 MKA 外掛音軌
+
+## 收藏夾
+
+- [x] 新增收藏夾功能
+
+## 伺服器
+
+- [x] SMB2／SMB3、FTP、SFTP 的唯讀圖片與影片瀏覽
 
 ## 修復與改善
 
@@ -93,6 +104,8 @@ https://github.com/WSTxda/QP-Gallery-Releases
 - [x] 改善資料夾及子資料夾縮圖載入
 - [x] 修正實體／虛擬資料夾閱讀標記與 `.nomedia` 顯示
 - [x] 改善巢狀與虛擬資料夾刪除，加入刪除確認及快速刪除
+- [x] Android 9+ 生物識別及收藏夾鎖定；密碼／手勢改用加鹽慢雜湊，加入錯誤次數限制
+- [x] Material You 配色開關預設關閉；Android 12+ 可使用系統強調色
 
  ---
 
@@ -178,6 +191,18 @@ Some fixes are basic behavior corrections and may not have a separate toggle.
 - [x] Orientation-aware rotation and safe volume
 - [x] Compatibility decoding including MPEG-4 SP/ASP
 - [x] Richer video details, chapters, and playback progress
+- [x] Gradient drawer for the playlist, details, playback speed and sleep timer.
+- [x] Gradient drawer for the playlist, details, playback speed and sleep timer
+- [x] Prefer available hardware video decoding with position-preserving fallback
+- [x] Prefer source-rate/channel float PCM with device-compatible fallbacks, and select matching MKA sidecar tracks
+
+## Collections
+
+- [x] Added Favorites feature
+
+## Servers
+
+- [x] Read-only image/video browsing over SMB2/SMB3, FTP and SFTP
 
 ## Fixes and improvements
 
@@ -187,6 +212,8 @@ Some fixes are basic behavior corrections and may not have a separate toggle.
 - [x] Improved nested-folder thumbnail loading
 - [x] Fixed reading markers for physical/virtual folders and `.nomedia`
 - [x] Improved nested and virtual folder deletion with confirmation and quick delete
+- [x] Add Android 9+ biometrics and collection access locking, salted credential hashing and failed-attempt throttling.
+- [x] Optional Material You accents, off by default, on Android 12+
 
 ---
 
