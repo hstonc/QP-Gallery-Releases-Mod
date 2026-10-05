@@ -69,7 +69,6 @@ https://github.com/WSTxda/QP-Gallery-Releases
 - [x] 音量鍵翻頁
 - [x] 快速切換圖庫
 - [x] 閱讀記錄與閱讀進度
-- [x] 排除過小圖片
 - [x] 自動掃描開關、下拉刷新與掃描快取
 
 ## 影片播放器
@@ -176,7 +175,6 @@ Some fixes are basic behavior corrections and may not have a separate toggle.
 - [x] Volume-button paging
 - [x] Quick album switching
 - [x] Reading history and progress
-- [x] Tiny-image exclusion
 - [x] Automatic scan toggle, pull-to-refresh, and scan cache
 
 ## Video player
