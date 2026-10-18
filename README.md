@@ -1,11 +1,12 @@
 # QuickPic Gallery Mod
 
-[![Platform](https://img.shields.io/badge/android-platform?style=for-the-badge&label=platform&labelColor=21262d&color=6e7681)](https://www.android.com) [![API](https://img.shields.io/badge/23%2B-level?style=for-the-badge&logo=android&logoColor=3cd382&label=API&labelColor=21262d&color=ff663b)](https://developer.android.com/studio/releases/platforms) [![Release](https://img.shields.io/github/v/release/hstonc/QP-Gallery-Releases-Mod?display_name=tag&style=for-the-badge&logo=github&labelColor=21262d&color=1f6feb)](https://github.com/hstonc/QP-Gallery-Releases-Mod/releases/latest) 
+[![Platform](https://img.shields.io/badge/android-platform?style=for-the-badge&label=platform&labelColor=21262d&color=6e7681)](https://www.android.com) [![API](https://img.shields.io/badge/26%2B-level?style=for-the-badge&logo=android&logoColor=3cd382&label=API&labelColor=21262d&color=ff663b)](https://developer.android.com/studio/releases/platforms) [![Release](https://img.shields.io/github/v/release/hstonc/QP-Gallery-Releases-Mod?display_name=tag&style=for-the-badge&logo=github&labelColor=21262d&color=1f6feb)](https://github.com/hstonc/QP-Gallery-Releases-Mod/releases/latest)
 
 ![alt text](https://raw.githubusercontent.com/WSTxda/QP-Gallery-Releases/master/Images/Banner.svg)
 
-A modernized version of the classic QuickPic Gallery, focused on speed, stability, and simplicity.
-It includes multiple bug fixes, improved compatibility with recent Android versions, and a refreshed Material 3 design — while preserving the lightweight, fast, and offline-first experience of the original app.
+基於 QP Gallery 的非官方修改版本，保留原有介面與輕量、快速、離線優先的使用體驗，並加入功能與修復。最低需求為 Android 8.0（API 26）；目前僅在 Android 15／16 兩台實際設備上進行基本測試。
+
+An unofficial modification of QP Gallery, preserving its existing interface and lightweight, fast, offline-first experience while adding features and fixes. Requires Android 8.0 (API 26) or later; basic testing has only been performed on two physical devices running Android 15 and Android 16.
 
 <details>
   <summary>Screenshots</summary>
@@ -44,9 +45,9 @@ It includes multiple bug fixes, improved compatibility with recent Android versi
 
 > **這不是官方版本，與原作者沒有關聯，也未獲得原作者背書。**
 
-### Upstream
+### 上游專案
 
-Original project / 原始專案：
+原始專案：
 
 **WSTxda/QP-Gallery-Releases**
 
@@ -76,7 +77,7 @@ https://github.com/WSTxda/QP-Gallery-Releases
 - [x] 全新播放器介面與手勢操作
 - [x] 播放記錄、自動建立播放列表與多種播放順序
 - [x] 自動開啟影片及返回列表選項
-- [x] 固定預設播放器與遠端 HTTP 代理播放
+- [x] 遠端 HTTP 代理播放
 - [x] 畫中畫播放與背景純音訊播放
 - [x] 外置／內置字幕、ASS 特效及 `.danmu.ass` 彈幕字幕
 - [x] 字幕字體匯入與管理
@@ -106,31 +107,48 @@ https://github.com/WSTxda/QP-Gallery-Releases
 - [x] Android 9+ 生物識別及收藏夾鎖定；密碼／手勢改用加鹽慢雜湊，加入錯誤次數限制
 - [x] Material You 配色開關預設關閉；Android 12+ 可使用系統強調色
 
- ---
+---
 
 ## 安裝注意事項
 
-此 Mod 使用與原始版本不同的簽名。
+此 Mod 使用與原始版本不同的簽章，兩者通常無法直接覆蓋安裝。
 
-因此第一次從官方 / 原始版本切換到本 Mod 時，可能需要先卸載原版本後再安裝。
+第一次切換前，請先備份需要保留的資料，並確認備份能還原；解除安裝可能刪除應用程式資料。不要將解除安裝或清除資料作為一般更新步驟。
 
-之後如果一直使用同一個 Mod 簽名，則可以直接覆蓋更新。
-
-> 請在卸載前確認需要保留的資料是否已備份。
+之後使用相同套件名稱、相同 Mod 簽章且 versionCode 符合 Android 更新要求的版本，才可直接覆蓋更新。
 
 ---
 
-## Disclaimer
+## 已知限制
 
-This is an unofficial modification.
+- 修改主要基於反編譯 APK，並非完整的 Android 原始碼專案。
+- 大部分分析與實作由 AI 輔助完成。
+- 目前僅在 Android 15 與 Android 16 上進行基本測試。
+- 不保證所有 Android 版本、廠商 ROM 與儲存配置均相容。
+- 外部預設播放器的「一律開啟」支援仍暫緩，不列為已完成功能。
+- 未來上游更新可能需要重新調整這些修改。
 
-The project is provided for personal use, experimentation and learning purposes. Use it at your own risk.
+回報問題時，請提供：
 
-All rights to the original application, name and related assets belong to their respective owners.
+- Android 版本
+- 裝置型號
+- App 版本
+- 重現步驟
+- 可提供時，附上截圖或螢幕錄影
 
 ---
 
-# English
+## 免責聲明
+
+這是非官方修改版本。
+
+本專案供個人使用、實驗與學習用途；使用風險由使用者自行承擔。
+
+原始應用程式、名稱與相關素材的權利均屬各自權利人所有。
+
+---
+
+## English
 
 ## About
 
@@ -147,7 +165,7 @@ The current build has only received basic testing on two physical devices runnin
 - Android 15
 - Android 16
 
-Compatibility with older Android versions, custom ROMs, tablets, foldables and other devices has not been fully tested.
+Compatibility with other Android versions, custom ROMs, tablets, foldables and other devices has not been fully tested.
 
 > **This is not an official build and is not affiliated with or endorsed by the original developer.**
 
@@ -170,6 +188,7 @@ Most features added or changed by this Mod can be enabled or disabled under:
 Some fixes are basic behavior corrections and may not have a separate toggle.
 
 ---
+
 ## Features
 
 - [x] Volume-button paging
@@ -182,14 +201,13 @@ Some fixes are basic behavior corrections and may not have a separate toggle.
 - [x] Redesigned controls and gesture navigation
 - [x] Playback history, automatic playlists, and playback modes
 - [x] Auto-open videos with an optional return-to-list flow
-- [x] Default video associations and remote HTTP-proxy playback
+- [x] Remote HTTP-proxy playback
 - [x] Picture-in-Picture and background audio playback
 - [x] External and embedded subtitles, ASS styling, and `.danmu.ass` overlays
 - [x] Subtitle font import and management
 - [x] Orientation-aware rotation and safe volume
 - [x] Compatibility decoding including MPEG-4 SP/ASP
 - [x] Richer video details, chapters, and playback progress
-- [x] Gradient drawer for the playlist, details, playback speed and sleep timer.
 - [x] Gradient drawer for the playlist, details, playback speed and sleep timer
 - [x] Prefer available hardware video decoding with position-preserving fallback
 - [x] Prefer source-rate/channel float PCM with device-compatible fallbacks, and select matching MKA sidecar tracks
@@ -206,12 +224,22 @@ Some fixes are basic behavior corrections and may not have a separate toggle.
 
 - [x] Android system share sheet integration
 - [x] Improved media copy/move actions and include/exclude path display
-- [x] Fixed list dates, tablet one-folder-per-row layout, and file-browser titles
-- [x] Improved nested-folder thumbnail loading
+- [x] Fixed list-mode dates, tablet items-per-row settings, and file-browser titles
+- [x] Improved folder and subfolder thumbnail loading
 - [x] Fixed reading markers for physical/virtual folders and `.nomedia`
 - [x] Improved nested and virtual folder deletion with confirmation and quick delete
-- [x] Add Android 9+ biometrics and collection access locking, salted credential hashing and failed-attempt throttling.
+- [x] Android 9+ biometrics and collection access locking; salted slow hashing for passwords/patterns and failed-attempt throttling
 - [x] Optional Material You accents, off by default, on Android 12+
+
+---
+
+## Installation Notes
+
+This Mod uses a different signing certificate from the original version, so the two usually cannot be installed over each other.
+
+Before switching for the first time, back up any data you need and confirm that it can be restored; uninstalling may delete app data. Do not treat uninstalling or clearing data as a routine update step.
+
+Subsequent in-place updates require the same package name, the same Mod signing certificate, and a versionCode that meets Android's update requirements.
 
 ---
 
@@ -221,6 +249,7 @@ Some fixes are basic behavior corrections and may not have a separate toggle.
 - A significant portion of the analysis and implementation was AI-assisted.
 - Only basic testing has been performed on Android 15 and Android 16.
 - Compatibility with every Android version, OEM ROM and storage configuration is not guaranteed.
+- External default-player “Always open” support remains deferred and is not listed as a completed feature.
 - Future upstream releases may require these modifications to be adapted again.
 
 When reporting an issue, please include:
